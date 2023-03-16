@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    .block {
+      display: block;
+      width: 100PX;
+      height: 50px;
+      border: none;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #04AA6D;
+      color: white;
+      padding: 2px 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .block:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .block3 {
+      display: block;
+      width: 100PX;
+      height: 30px;
+      border: none;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #04AA6D;
+      color: white;
+      padding: 2px 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .block3:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .block1 {
+      display: block;
+      width: 100PX;
+      border: none;
+      height: 50px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #000000;
+      color: white;
+      padding: 2px 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .block1:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.column {
+  float: left;
+  padding-bottom:20%;
+  margin-top:5%;
+  width: 33.33%;
+  display: none;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+
+.show {
+  display: block;
+}
+
+
+.btn1 {
+  border:none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: #ddd;
+}
+.btn1.active {
+  background-color: #666;
+  color: w hite;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid rgb(0, 186, 53); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(20, 198, 0); }
+}
+
+    </style>
+    </head>
+  <body>
+    <div style="background: rgb(246,246,246);
+    background: linear-gradient(90deg, #f6f6f6 0%, #f8f8fa 23%, #d6d6d6 100%);padding-bottom:450px;">
+
+      
+     <!-- <a href="C:\Users\Dell\OneDrive\Desktop\live product.html"> --> 
+        <ul>
+          
+         <!--   <li><a href="#home"><img src="C:\Users\Dell\Downloads\2.0_png-removebg-preview.png" style="margin-left:50px;" width="100px"></a></li> -->
+         <h3 style="margin-left:900px;margin-top:-20px;"> <li><a href="#home">Home</a></li>
+         <li><a href="#news">News</a></li>
+          <li><a href="C:\Users\Dell\OneDrive\Desktop\news paper.html">Product</a></li>
+          <li><a href="#about">About</a></li> </h3> 
+        </ul>
+      <!--image-->
+
+      <img src="C:\Users\Dell\Downloads\new anas.png" style="margin-left:850px; width: 500px;">
+      <h1 style="margin-top:-380px;margin-left:400px;text-shadow: 2px 2px 5px #333">Hello</h1>
+      <div class="typewriter">
+        
+      <h1 style="margin-left:40px;margin-top:-10px;text-shadow:2px 2px 5px #04AA6D";>I'M <span style="color: #04AA6D;">SHAHNAWAZ  </span> KHAN </h1> </div>
+      <h2 style="margin-left:300px;text-shadow: 2px 2px 5px #04AA6D;">RODEZ WEB TECHNOLOGIES</h2>
+      <button type="button" class="block" style="margin-left:70px;">Hire me</button>
+      <button type="button" class="block1" style="margin-left:190px;margin-top:-50px;">Bid now</button>
+    </div>
+    <!--about div and pages-->
+      <div style="border:100%;background-color: white;padding-top:10%;padding-bottom:10px;margin-left:120px;margin-right:120px;
+      margin-top:-337px;border-top-right-radius: 15px;border-top-left-radius: 15px;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;">
+
+      <h1 style="margin-left:500px;margin-top:-140px;text-shadow: 2px 2px 5px #04AA6D">About Me</h1>
+
+      <p class="typewriter">
+      <p style="margin-left:20px;margin-right:20px;margin-top:-20px;">Hello firend I'M Shahnawaz Khan jaise ki aap me say bhut say log hamko janta ho gya to guys me apne story batana chata hu
+      chalo short ma batahu gyu me aman it services LIC Office canal road vaha par me gya akash ki tharu or ma gya tha typing ka liya but one day h kya typing second day hi
+    ccc join kya uska bad 6 month hona wala hi tha to mare friend na bola ki yaar pata karo paise kaise aaya apne pass mana bolo ki thik or jab join kar liya mana to laga ki ha 
+  yaar ya place bhut hi acha hai or aaj jo bhi hu uski vaja se to agar vo is website ko dakh rhi hai to aaj unko is website ka tharu thankyou bolna chau ga or unka naam hai 
+simran to thanks simran...</p>
+    </div>
+    <div id="shahnawaz" style="margin-left:40%;margin-top:5%;">
+      <button class="btn1" onclick="filterSelection('logo')"> Logo</button>
+      <button class="btn1" onclick="filterSelection('poster')"> Poster</button>
+      <button class="btn1" onclick="filterSelection('web img')">Web img</button>
+    </div>
+    <!-- three box hai -->
+  <div class="column logo">
+    <div class="content">
+      <img src="C:\Users\Dell\Downloads\logo shah.jpeg" alt="Mountains" style="width:100%; ">
+    </div>
+  </div>
+</div>
+
+<div class="column logo">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\Medical Shahnawaz (1).png" alt="Mountains" style="width:100%; ">
+  </div>
+</div>
+</div>
+
+<div class="column logo">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\logo shah01.jpeg" alt="Mountains" style="width:100%; ">
+  </div>
+</div>
+</div>
+
+<!--poster-->
+
+  <div class="column poster">
+    <div class="content">
+      <img src="C:\Users\Dell\Downloads\poster 1.jpeg" alt="Mountains" style="width:100%">
+    </div>
+  </div>
+</div>
+
+
+<div class="column poster">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\Orange IT Remote Jobs Ad Instagram Post.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</div>
+
+<div class="column poster">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\poster 2.jpeg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</div>
+
+<!--website page-->
+  <div class="column web img">
+    <div class="content">
+      <img src="C:\Users\Dell\Downloads\Web3.0.jpg"alt="Mountains" style="width:100%; ">
+    </div>
+  </div>
+</div>
+
+<div class="column web img">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\maxresdefault 123.jpg"alt="Mountains" style="width:100%; ">
+  </div>
+</div>
+</div>
+
+<div class="column web img">
+  <div class="content">
+    <img src="C:\Users\Dell\Downloads\maxresdefault 321.jpg"alt="Mountains" style="width:100%; ">
+  </div>
+</div>
+</div>
+
+<!--<div>
+
+  <h1>fheriugh4w5g87</h1>
+</div>-->
+
+
+<div style="background-color:#333;padding-top:8%;margin-top:50%;margin-bottom:150px;padding-bottom:7%;">
+  <h2 style="color:white;margin-left:40%;margin-top:-70px;text-shadow: 2px 2px 5px #04AA6D;">what any project in your mind</h2>
+  <!--button shahnawaz-->
+  <a  style="text-decoration: none;" href="C:\Users\Dell\OneDrive\Desktop\form product.html">
+  <button type="button" class="block3" style="margin-left:700px;">contant me</button></a>
+  </div>
+
+
+  <div>
+    <h1 style="margin-left:500px;">Going to Internet</h1>
+    <p style="margin-left:680px;">any time massage</p>
+    <img src="C:\Users\Dell\Downloads\all_logo-removebg-preview.png" style="margin-left:700px;" width="100px">
+  </div>
+
+
+<script>
+filterSelection("logo")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+</body>
+</html>
